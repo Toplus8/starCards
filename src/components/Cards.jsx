@@ -8,7 +8,7 @@ const Cards = () => {
   //console.log(cards)
   useEffect(() => {
     getDetails();
-  }, cards); 
+  },[]); 
       
   const getDetails = () => {
     getData('https://swapi.dev/api/people')
